@@ -1,0 +1,69 @@
+html, body {
+    height: 100%; /* Zorg dat de pagina altijd de volledige hoogte heeft */
+}
+
+.d-flex.flex-column {
+    min-height: 100vh; /* Zorgt ervoor dat de container minimaal de hoogte van het scherm heeft */
+  }
+
+.container-sm{
+    padding:10px;
+    flex: 1; /* Zorg dat de inhoud flexibel groeit en de resterende ruimte vult */
+    
+
+}
+.col {
+    padding:10px;
+    text-align: center;
+
+}
+
+.custom-row {
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.full-width-footer{
+    min-height:200px; /* Minimale hoogte van 200px */
+    width:100%;
+    margin:0;
+    
+}
+
+
+
+.navbar{
+    border-radius: 10px;
+       
+}
+
+
+.nav li a{
+    color:white;
+
+}
+
+.nav-link.active{
+    font-weight: bold;
+    color:#6a9add;
+
+}
+
+.nav li a:hover{
+    color:#6a9add;;
+    border-bottom: 2px solid whitesmoke;
+}
+
+h3{
+    margin-left:5px;
+}
+
+h3:hover{
+    color:#6a9add;
+    
+
+}
+
+
+
+
